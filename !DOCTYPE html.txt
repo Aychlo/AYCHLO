@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AYCHLO - Levabolli e Servizi per Carrozzerie</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f8f8f8; }
+    header { display:flex; align-items:center; justify-content:center; gap:1rem; padding:1rem; background:#222; color:#fff; }
+    header img { height:60px; }
+    main { padding:2rem; max-width:800px; margin:auto; background:#fff; }
+    h1,h2 { color:#222; }
+    footer { text-align:center; padding:1rem; background:#222; color:#fff; margin-top:2rem; }
+    a { color:#0066cc; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo AYCHLO">
+    <div>
+      <h1>AYCHLO</h1>
+      <p>Levabolli e lavori su misura per carrozzerie</p>
+    </div>
+  </header>
+  <main>
+    <h2>Chi siamo</h2>
+    <p>AYCHLO è un’attività di un contrattista specializzato in interventi su carrozzerie, in particolare nel levabolli, con esperienza e professionalità direttamente presso le officine.</p>
+    
+    <h2>Servizi</h2>
+    <ul>
+      <li>Levabolli senza verniciatura</li>
+      <li>Supporto per carrozzerie</li>
+      <li>Riparazioni rapide e su richiesta</li>
+    </ul>
+    
+    <h2>Contatti</h2>
+    <p>Email: <a href="mailto:qosjadritan@lamiapec.it">qosjadritan@lamiapec.it</a></p>
+    <p>Telefono 1: <a href="tel:+393299846058">+39 3299846058</a> - <a href="https://wa.me/393299846058">WhatsApp</a></p>
+    <p>Telefono 2: <a href="tel:+393927571191">+39 3927571191</a> - <a href="https://wa.me/393927571191">WhatsApp</a></p>
+  </main>
+  <footer>
+    <p>&copy; 2025 AYCHLO - Tutti i diritti riservati</p>
+  </footer>
+</body>
+</html>
