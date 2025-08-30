@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aychlo - Servizi Levabolli</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6; background: #f5f5f5; color: #333; }
+    header { background: linear-gradient(135deg, #1e1e1e, #444); color: #fff; padding: 3rem 1rem; text-align: center; }
+    header h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.3rem; color: #f4b400; }
+    nav { background: #222; padding: 0.8rem; text-align: center; position: sticky; top: 0; }
+    nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+    nav a:hover { color: #f4b400; }
+    section { padding: 3rem 1.5rem; max-width: 1100px; margin: auto; }
+    h2 { margin-bottom: 1.5rem; color: #222; font-size: 2rem; border-left: 5px solid #f4b400; padding-left: 10px; }
+    .servizi { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { background: #fff; padding: 1.5rem; border-radius: 10px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); text-align: center; font-weight: bold; }
+    .galleria { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .galleria img { width: 100%; border-radius: 10px; transition: transform 0.3s; }
+    .galleria img:hover { transform: scale(1.05); }
+    form { display: flex; flex-direction: column; gap: 1rem; margin-top: 1.5rem; }
+    form input, form textarea { padding: 0.8rem; border-radius: 5px; border: 1px solid #ccc; }
+    form button { background: #f4b400; border: none; padding: 1rem; border-radius: 5px; cursor: pointer; font-weight: bold; transition: background 0.3s; }
+    form button:hover { background: #d99a00; }
+    footer { background: #111; color: #ccc; text-align: center; padding: 2rem 1rem; margin-top: 2rem; }
+    footer a { color: #f4b400; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aychlo</h1>
+    <p>Specialista Levabolli e interventi su carrozzerie</p>
+  </header>
+  <nav>
+    <a href="#chi-siamo">Chi siamo</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#galleria">Galleria</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+  <section id="chi-siamo">
+    <h2>Chi siamo</h2>
+    <p>Aychlo è un'attività di un contrattista indipendente che collabora con diverse carrozzerie offrendo servizi specializzati. Siamo esperti nella tecnica levabolli (PDR - Paintless Dent Removal) e in altre lavorazioni su carrozzerie, garantendo risultati professionali e veloci direttamente in sede.</p>
+  </section>
+  <section id="servizi">
+    <h2>I nostri servizi</h2>
+    <div class="servizi">
+      <div class="card">Levabolli senza verniciatura (PDR)</div>
+      <div class="card">Riparazioni danni da grandine</div>
+      <div class="card">Piccole riparazioni estetiche</div>
+      <div class="card">Supporto a carrozzerie su richiesta</div>
+    </div>
+  </section>
+  <section id="galleria">
+    <h2>Galleria</h2>
+    <div class="galleria">
+      <img src="https://via.placeholder.com/400x250" alt="Intervento levabolli 1">
+      <img src="https://via.placeholder.com/400x250" alt="Intervento levabolli 2">
+      <img src="https://via.placeholder.com/400x250" alt="Intervento levabolli 3">
+      <img src="https://via.placeholder.com/400x250" alt="Intervento levabolli 4">
+    </div>
+  </section>
+  <section id="contatti">
+    <h2>Contatti</h2>
+    <p>📍 Operativo in diverse carrozzerie - su richiesta</p>
+    <p>📞 Telefono: <a href="tel:+39123456789">+39 123 456 789</a></p>
+    <p>💬 WhatsApp: <a href="https://wa.me/39123456789">Scrivici su WhatsApp</a></p>
+    <p>✉️ Email: <a href="mailto:info@aychlo.it">info@aychlo.it</a></p>
+    <form action="https://formspree.io/f/tuo_id" method="POST">
+      <input type="text" name="nome" placeholder="Il tuo nome" required>
+      <input type="email" name="email" placeholder="La tua email" required>
+      <textarea name="messaggio" rows="5" placeholder="Il tuo messaggio" required></textarea>
+      <button type="submit">Invia Messaggio</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Aychlo - Tutti i diritti riservati</p>
+  </footer>
+</body>
+</html>
